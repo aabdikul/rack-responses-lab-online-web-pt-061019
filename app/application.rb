@@ -5,7 +5,7 @@ class Application
     if time.hour < 12
       resp.write "Good Morning!"
     else
-      resp.write "Good Evening! The current time is: #{time.strftime("%k:%M")}"
+      resp.write "Good Evening!"
     end
     resp.finish
   end
